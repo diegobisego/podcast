@@ -51,9 +51,7 @@ li {
     list-style: none;
 }
 
-a {
-    text-decoration: none;
-}
+
 
 p {
     width: 90vw;
@@ -107,7 +105,7 @@ input {
     
 }
 
-.nav-ul > li {
+.nav-ul > a {
     display: block;
     background:#0000EC 100vw;
     margin: 0;
@@ -117,6 +115,7 @@ input {
     color: #FFFFFF;
     letter-spacing: 0;
     line-height: 28px;
+    text-decoration: none;
 
 }
 
@@ -184,9 +183,8 @@ input {
 
 iframe {
     width: 99vw;
-    margin: 21px 11px 0 11px;
-    padding-left: 11px;
-    padding-right: 24px;
+    margin-top: 21px;
+    padding: 0 35px 0 22px;
     height: 232px;
     border: 0px;
     background-color: transparent;
@@ -205,7 +203,7 @@ iframe {
 .title-section3 {
 
     font-size: 36px;
-    font-weight: 600;
+    font-weight: 400;
     margin: 0.5% 1.5% 0 5%;
 }
 
@@ -238,6 +236,7 @@ iframe {
     color: #060A24;
     letter-spacing: 0;
     line-height: 42px;
+    font-weight: 400;
 }
 
 .section4-img {
@@ -282,6 +281,7 @@ iframe {
     letter-spacing: 0;
     font-weight: bold;
     margin-bottom: 50px;
+    width: 100vw;
 }
 /*FIN SECTION 5*/
 
@@ -292,7 +292,7 @@ iframe {
     clip-path: polygon(0 12%, 100% 0, 100% 100%, 0% 100%);
     background: rgb(0,0,255);
     background: linear-gradient(to bottom, rgba(0,0,255,1) 0%, rgba(0,0,163,1) 68%);  
-    height: 100vw;
+    height: 341px;
     position: relative;
     width: 100vw;
     display: flex;
@@ -365,7 +365,7 @@ iframe {
 
 /*Medias query para desktop*/
 
-@media screen and (min-width: 426px) {
+@media screen and (min-width: 768px) {
 
 
     .nav-hamb {
@@ -395,12 +395,22 @@ iframe {
         margin-top: 10px;
     }
 
+    .nav-ul-desktop > a {
+        text-decoration: none;
+        font-size: 16px;
+        color: #060A24;
+        letter-spacing: 0;
+        line-height: 28px;
+        font-family: 'IBM Plex Mono', monospace;
+            }
+
     .nav-ul-desktop li:hover {
         color: #00F3BB;
         font-family: 'IBM Plex Mono', monospace;
         cursor: pointer;
         text-decoration: line-through;
         font-size: 16px;
+        
     }
 
     .nav-ul-desktop li:active {
@@ -430,6 +440,7 @@ iframe {
     
     .title-section2 {
         padding: 3vw 0 0 3vw;
+        margin-top: 185PX;
         
     }
 
@@ -444,18 +455,20 @@ iframe {
     }
 
     .section2 {
-        clip-path: polygon(0 5%, 100% 0, 100% 95%, 0 100%);
+        clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
         background: rgb(0,0,255);
         background: linear-gradient(to bottom, rgba(0,0,255,1) 0%, rgba(0,0,163,1) 68%); 
-        height: 900px;
+        height: 1043px;
         width: 100vw;
+        padding: 0 0 0 40px;
     }
 
     .section3{
         display: flex;
         width: 100vw;  
         justify-content: space-between;
-        align-items: center;      
+        align-items: center;
+        margin: -150px 0 0 0;    
     }
 
 
@@ -473,7 +486,8 @@ iframe {
     
     .section3-img{
         z-index: 5;
-        width: 33vw;
+        max-width: 400px;
+        min-width: 500px;
         
     }
 
@@ -488,7 +502,7 @@ iframe {
     }
 
     .section4-img {
-        width: 33vw;
+        width: 33.33vw;
         display: flex;
     }
 
@@ -525,7 +539,7 @@ iframe {
         background: rgb(0,0,255);
         background: linear-gradient(to bottom, rgba(0,0,255,1) 0%, rgba(0,0,163,1) 70%); 
         clip-path: polygon(0 18%, 100% 0, 100% 100%, 0% 100%);
-        height: 30vw;
+        height: 518px;
     }
 
     .footer {

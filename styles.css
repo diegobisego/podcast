@@ -60,7 +60,7 @@ p {
 /*menu hamburgesa*/
 
 .nav-hamb {
-    margin: -9vw 5vw 0 0;
+    margin: -32px 5vw 0 0;
     width: 100vw;
     position: relative;
     
@@ -105,7 +105,7 @@ input {
     
 }
 
-.nav-ul > a {
+.nav-ul > li a {
     display: block;
     background:#0000EC 100vw;
     margin: 0;
@@ -204,7 +204,7 @@ iframe {
 
     font-size: 36px;
     font-weight: 400;
-    margin: 0.5% 1.5% 0 5%;
+    margin: 0.5vw 1.5vw 0 5vw;
 }
 
 .section3-img {
@@ -308,7 +308,6 @@ iframe {
     text-align: center;
     line-height: 42px;
     font-weight: 400;
-    margin: 0 0 0 0;
     width: 90vw;
 }
 
@@ -371,12 +370,14 @@ iframe {
     .nav-hamb {
         display: none;
     }
-
+    
     .conteiner-header {
         display: inline-flex;
         justify-content: space-between;
         align-items: center;
     }
+
+    
 
     .nav-desktop {
         display: inline-flex;
@@ -395,7 +396,8 @@ iframe {
         margin-top: 10px;
     }
 
-    .nav-ul-desktop > a {
+
+    .nav-ul-desktop > li a {
         text-decoration: none;
         font-size: 16px;
         color: #060A24;
@@ -448,11 +450,14 @@ iframe {
         display: flex;
         width: 100vw;
         flex-wrap: wrap;
+
     }
 
     iframe {
         width: 45vw;
     }
+
+
 
     .section2 {
         clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
@@ -460,6 +465,7 @@ iframe {
         background: linear-gradient(to bottom, rgba(0,0,255,1) 0%, rgba(0,0,163,1) 68%); 
         height: 1043px;
         width: 100vw;
+        
     }
 
     .section3{
@@ -472,11 +478,7 @@ iframe {
 
 
     .section3-conteiner {
-        display: flex;
-        flex-direction: column;
         width: 100vw;
-        justify-content: center;
-        align-items: center;
     }
 
     .title-section3 {
@@ -485,8 +487,8 @@ iframe {
     
     .section3-img{
         z-index: 5;
-        max-width: 400px;
-        min-width: 500px;
+        max-width: 300px;
+        min-width: 400px;
         
     }
 
@@ -516,7 +518,7 @@ iframe {
     .section5-title {
         display: block;
         width: 100vw;
-        margin: 7% 0 0 10%;
+        margin: 7vw 0 0 10vw;
     }
 
     .section5-conteiner-icon {

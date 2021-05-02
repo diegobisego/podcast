@@ -204,7 +204,7 @@ iframe {
 
     font-size: 36px;
     font-weight: 400;
-    margin: 0.5vw 1.5vw 0 5vw;
+    margin: 0.5vw 1.5vw 0 0;
 }
 
 .section3-img {
@@ -450,6 +450,8 @@ iframe {
         display: flex;
         width: 100vw;
         flex-wrap: wrap;
+        justify-content: center;
+        
 
     }
 

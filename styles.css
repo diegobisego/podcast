@@ -183,7 +183,7 @@ input {
 }
 
 iframe {
-    width: 99vw;
+    width: 100vw;
     margin-top: 21px;
     padding: 0 35px 0 22px;
     height: 232px;
@@ -294,7 +294,6 @@ iframe {
     background: rgb(0,0,255);
     background: linear-gradient(to bottom, rgba(0,0,255,1) 0%, rgba(0,0,163,1) 68%);  
     height: 341px;
-    position: relative;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -407,7 +406,7 @@ iframe {
         font-family: 'IBM Plex Mono', monospace;
             }
 
-    .nav-ul-desktop li:hover {
+    .nav-ul-desktop > li a:hover {
         color: #00F3BB;
         font-family: 'IBM Plex Mono', monospace;
         cursor: pointer;
@@ -416,7 +415,7 @@ iframe {
         
     }
 
-    .nav-ul-desktop li:active {
+    .nav-ul-desktop > li a:active {
         color: rgba(6,10,36,0.56);
         letter-spacing: 0;
         font-family: 'IBM Plex Mono', monospace;

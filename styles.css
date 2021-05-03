@@ -124,7 +124,8 @@ input {
 /*DECTION 1*/
 
 .section1 {
-    width: 100vw;
+    width: 93vw;
+    margin: 0 0 0 7vw;
 }
 
 .title-podcast {
@@ -441,7 +442,7 @@ iframe {
 
     
     .title-section2 {
-        padding: 3vw 0 0 3vw;
+        padding: 3vw 0 0 10vw;
         margin-top: 185PX;
         
     }
@@ -480,7 +481,9 @@ iframe {
 
 
     .section3-conteiner {
-        width: 100vw;
+        width: 50vw;
+        margin: 0 15vw 0 0;
+        display: block;
     }
 
     .title-section3 {

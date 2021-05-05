@@ -422,20 +422,24 @@ iframe {
         text-decoration: line-through;
     }
 
+    .title-podcast {
+        margin: 10vw 0 3vw 10vw;
+    }
+
     .point {
         color: blue;
     }
 
     .button-know-more {
         width: 200px;
-        margin-left: 5vw;
+        margin-left: 10vw;
     }
 
     .description-podcast {
         font-size: 16px;
         color: #060A24;
         width: 60vw;
-        margin-left: 5vw;
+        margin-left: 10vw;
     }
 
     
